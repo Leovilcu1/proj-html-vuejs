@@ -16,12 +16,18 @@
 </script>
 
 <template>
-      <appHeader/>
+  <div class="bg-black"> 
+    <appHeader/>
       <appMain/>
       <appFooter/>
+  </div>
+      
+
+      
 
 </template>
 
 <style lang="scss">
 @import "./styles/main.scss"
+
 </style>

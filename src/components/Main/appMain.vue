@@ -28,7 +28,7 @@
 
 
 <template>
-        <main class="bg-secondary">
+        <main class="">
                 <appMainCompetitive/>
                 <appMainBattle/>
                 <appMainFacts/>
