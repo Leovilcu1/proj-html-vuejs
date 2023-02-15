@@ -6,7 +6,6 @@
         import appMainFeedback from './appMainFeedback.vue';
         import appMainOffer from './appMainOffer.vue';
         import appMainArticles from './appMainArticles.vue';
-        import appMainJumbotron from './appMainJumbotron.vue';
 
         export default{
                 name:"appMain",
@@ -18,7 +17,7 @@
                         appMainFeedback,
                         appMainOffer,
                         appMainArticles,
-                        appMainJumbotron
+
 
 
                         
@@ -36,7 +35,7 @@
                 <appMainFeedback/>
                 <appMainOffer/>
                 <appMainArticles/>
-                <appMainJumbotron/>
+
         </main>
         
 

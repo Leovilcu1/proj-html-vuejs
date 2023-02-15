@@ -46,7 +46,7 @@
                 background-image: url(../../assets/img/game-controler.png);
                 background-repeat: no-repeat;
                 background-position: left;
-                background-size: 200px;
+                background-size: 300px;
                 
         }
 
