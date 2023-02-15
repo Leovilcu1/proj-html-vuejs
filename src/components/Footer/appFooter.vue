@@ -12,7 +12,7 @@
 
 <template>
   
-        <footer class="bg-danger">
+        <footer >
                 <div class="container">
                         <div class="items d-flex justify-content-between">
                                 <div class="item w-25">
@@ -74,5 +74,6 @@
 <style lang="scss" scoped>
 footer{
         padding-top: 150px;
+        background-color:#28344a ;
 }
 </style>

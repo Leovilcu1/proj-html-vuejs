@@ -19,7 +19,11 @@
                                                         <p>Lorem ipsum dolor sit.</p>
                                                         <h1>Lorem, ipsum dolor.</h1>
                                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate aspernatur ea omnis voluptates fugit asperiores!</p>
-                                                        <button>EXPLORE GAMES</button>
+                                                        <button class="button bg-success border-black rouded rounded-5 p-2">EXPLORE GAMES</button>
+                                                        <div class="p-2 border border-success rounded rounded-circle btn">
+                                                                <img class=" bg-light  rounded rounded-circle p-2 " src="../../assets/img/play-icon.png" alt="">
+
+                                                        </div>
                                                 </div>
                                                 <div class="w-75 ">
                                                         <img src="../../assets/img/index-banner-illus.png" alt="" class=" w-100 ">
@@ -46,9 +50,13 @@
                 background-image: url(../../assets/img/game-controler.png);
                 background-repeat: no-repeat;
                 background-position: left;
-                background-size: 300px;
-                
+                background-size: 200px;
         }
+        .button{
+                margin-right:1rem ;
+        background-color: #fff;
+        }
+      
 
   
 </style>
