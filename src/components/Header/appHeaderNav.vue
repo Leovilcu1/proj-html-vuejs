@@ -27,14 +27,14 @@
 
 
 <template>
-      <div class="header-nav d-flex justify-content-between" v-for="x, index in navbar" :key="index">
+      <div class="header-nav d-flex justify-content-between pt-3" v-for="x, index in navbar" :key="index">
           <div>
-          <img :src="getImagePath(`../../assets/img/${x.logo}`)">
-        </div>
+            <img :src="getImagePath(`../../assets/img/${x.logo}`)">
+          </div>
         <div>
           <ul class="d-flex">
             <li>
-              <a  href="#" class="text-light">{{ x.paginaPrincipale}}</a>
+              <a  href="#" class=" text-success">{{ x.paginaPrincipale}}</a>
             </li>
             <li class="nav-item dropdown mx-3" v-for="(y, strindex) in x.nav" :key="strindex">
               <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

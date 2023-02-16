@@ -1,9 +1,11 @@
 <script>
         import appHeaderNav from './appHeaderNav.vue';
+        import titleSection from '../titleSection.vue';
         export default{
                 name:"appHeader",
                 components:{
-                        appHeaderNav
+                        appHeaderNav,
+                        titleSection
                 }
         }
 </script>
@@ -16,10 +18,8 @@
                                         <appHeaderNav/>
                                         <div class="d-flex justify-content-between align-items-center">
                                                 <div class="w-25">
-                                                        <p>Lorem ipsum dolor sit.</p>
-                                                        <h1>Lorem, ipsum dolor.</h1>
-                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate aspernatur ea omnis voluptates fugit asperiores!</p>
-                                                        <button class="button bg-success border-black rouded rounded-5 p-2">EXPLORE GAMES</button>
+                                                        <titleSection/>
+                                                        <button class="button bg-success border-black rouded rounded-5 p-2">EXPLORE GAMES >></button>
                                                         <div class="p-2 border border-success rounded rounded-circle btn">
                                                                 <img class=" bg-light  rounded rounded-circle p-2 " src="../../assets/img/play-icon.png" alt="">
 
@@ -50,7 +50,7 @@
                 background-image: url(../../assets/img/game-controler.png);
                 background-repeat: no-repeat;
                 background-position: left;
-                background-size: 200px;
+                background-size: 300px;
         }
         .button{
                 margin-right:1rem ;

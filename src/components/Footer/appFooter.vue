@@ -5,7 +5,8 @@
                 name:"appFooter",
                 components:{
                         appFooterCopyright
-                }
+                },
+                
         }
 </script>
         
@@ -18,8 +19,11 @@
                                 <div class="item w-25">
                                         <img src="../../assets/img/logo.png" alt="">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eligendi saepe quibusdam excepturi.</p>
-                                        <div>
-                                                icon icon icon icon
+                                        <div class="icons">
+                                                <font-awesome-icon icon="fa-brands fa-twitter" />
+                                                <font-awesome-icon icon="fa-brands fa-facebook" />
+                                                <font-awesome-icon icon="fa-brands fa-instagram" />
+                                                <font-awesome-icon icon="fa-brands fa-youtube" />
                                         </div>
                                 </div>
                                 <div class="item">
@@ -75,5 +79,19 @@
 footer{
         padding-top: 150px;
         background-color:#28344a ;
+        color: white;
+}
+li{
+        list-style: none;
+}
+a{
+        color: white;
+        text-decoration: none;
+}
+.icons >*{
+        padding: 10px;
+        border: 1px solid lightgray;
+        border-radius: 50%;
+        margin:10px
 }
 </style>

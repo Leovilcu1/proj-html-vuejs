@@ -17,11 +17,8 @@
                         appMainFeedback,
                         appMainOffer,
                         appMainArticles,
-
-
-
-                        
-                }
+                },
+                
         }
 </script>
 
